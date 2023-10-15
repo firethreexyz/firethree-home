@@ -15,7 +15,7 @@ const Stats: React.FC = () => {
 
       <div className="flex flex-col relative z-10 h-full">
         <div className="flex justify-between items-center px-5 pt-5">
-          <img className="" src="/img/logo.svg" alt="bg" />
+          <img className="" src="/img/logo-fire.svg" alt="bg" />
 
           <div className="flex items-center space-x-4">
             <Link href="https://discord.gg/cr3pYvTWa6" target="_blank">
