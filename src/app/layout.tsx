@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import type { Metadata } from "next";
 import { poppins } from "@/utils/fonts";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Firethree",
