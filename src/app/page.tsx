@@ -44,7 +44,11 @@ const Stats: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-center flex-col m-auto h-full">
+        <div className="bg-animation absolute">
+          <div className="bg-animation-children"></div>
+        </div>
+
+        <div className="relative flex items-center justify-center flex-col m-auto h-full z-10">
           <h1 className="text-7xl px-2 md:px-0 text-center font-bold text-[#DCDBDB]">
             Create a Solana{" "}
             <span
