@@ -62,7 +62,7 @@ const Stats: React.FC = () => {
               dApp
             </span>
           </h1>
-          <span className="text-[#CCCBCB] text-lg md:w-7/12 text-center mt-4 px-4 md:px-0">
+          <span className="text-[#CCCBCB] text-lg leading-8 md:w-7/12 text-center mt-5 mb-2 px-4 md:px-0">
             with collection, storage, auth and analytics using this protocol!
             storage the data with{" "}
             <Link
@@ -85,7 +85,7 @@ const Stats: React.FC = () => {
             Yes it&apos;s similar to Fireb*** but 3x better!
           </span>
           <Link href="https://app.firethree.xyz/new-project" target="_blank">
-            <button className="text-lg text-white bg-white/10 h-[50px] px-20 md:px-28 mt-4 rounded-xl border border-white/30 hover:opacity-80 transition-all">
+            <button className="text-lg text-white bg-white/10 h-[50px] px-20 md:px-28 mt-5 rounded-xl border border-white/30 hover:opacity-80 transition-all">
               Create Project
             </button>
           </Link>
