@@ -129,7 +129,7 @@ const Stats: React.FC = () => {
               href="https://www.npmjs.com/package/@firethreexyz/firethree-protocol"
               target="_blank"
             >
-              <button className="text-lg text-white bg-white/10 h-[50px] px-20 md:px-28 md:mt-4 rounded-xl border border-white/30 hover:opacity-80 transition-all">
+              <button className="text-lg text-white bg-white/10 h-[50px] px-20 md:px-28 mt-5 rounded-xl border border-white/30 hover:opacity-80 transition-all">
                 SDK
               </button>
             </Link>
