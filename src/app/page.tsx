@@ -2,7 +2,7 @@
 "use client";
 
 import { Connection, PublicKey } from "@solana/web3.js";
-import Firethree from "../../../firethree/sdk/dist";
+import Firethree from "@firethreexyz/firethree-protocol";
 import Link from "next/link";
 import React, { useEffect, useMemo } from "react";
 
