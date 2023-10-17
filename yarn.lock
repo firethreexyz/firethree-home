@@ -96,10 +96,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.47.0.tgz#5478fdf443ff8158f9de171c704ae45308696c7d"
   integrity sha512-P6omY1zv5MItm93kLM8s2vr1HICJH8v0dvddDhysbIuZ+vcjOHg5Zbkf1mTkcmi2JA9oBG2anOkRnW8WJTS8Og==
 
-"@firethreexyz/firethree-protocol@^0.18.0":
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/@firethreexyz/firethree-protocol/-/firethree-protocol-0.18.0.tgz#049e5f78106d3707ee7819e1faef158ec0c9eea9"
-  integrity sha512-gVHL6vwtCuKXEnd/1zoiHzQ9Tr+YZCphVzPF2EdmgzFGV8NwULmS6MgfUDztI/cNg+ul/5wP9y79sfAvFNz8ZA==
+"@firethreexyz/firethree-protocol@^0.18.1":
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/@firethreexyz/firethree-protocol/-/firethree-protocol-0.18.1.tgz#affca9f6ea72bfdabd75df3d2da4b70005b4b848"
+  integrity sha512-vxlZ+tbUgV4yGHPJqj8eUyjePMb87nxBCkuqcKbevc0phaN8aNqRN5OmsRjUi8sdInGk4Ju10i6MNVG3n9jjAA==
   dependencies:
     "@project-serum/anchor" "0.26.0"
     "@shadow-drive/sdk" "5.0.0"
