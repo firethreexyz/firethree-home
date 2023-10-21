@@ -1,44 +1,44 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import { Connection, PublicKey } from "@solana/web3.js";
-import Firethree from "@firethreexyz/firethree-protocol";
+// import { Connection, PublicKey } from "@solana/web3.js";
+// import Firethree from "@firethreexyz/firethree-protocol";
 import Link from "next/link";
-import React, { useEffect, useMemo } from "react";
+import React from "react";
 
 const Stats: React.FC = () => {
-  const connection = useMemo(
-    () =>
-      new Connection(
-        "https://rpc.helius.xyz/?api-key=70f2e610-d5ea-4007-a763-4b2fd343c55e"
-      ),
-    []
-  );
-  const firethree = useMemo(
-    () => new Firethree(null, connection),
-    [connection]
-  );
-  const [projects, setProjects] = React.useState<
-    {
-      name: string;
-      ts: number;
-      publicKey: PublicKey;
-      image: string;
-      account: {
-        ts: any;
-        name: number[];
-        bump: number;
-        shdw: PublicKey;
-        multisig: PublicKey;
-        authority: PublicKey;
-        createKey: PublicKey;
-      };
-    }[]
-  >([]);
+  // const connection = useMemo(
+  //   () =>
+  //     new Connection(
+  //       "https://rpc.helius.xyz/?api-key=70f2e610-d5ea-4007-a763-4b2fd343c55e"
+  //     ),
+  //   []
+  // );
+  // const firethree = useMemo(
+  //   () => new Firethree(null, connection),
+  //   [connection]
+  // );
+  // const [projects, setProjects] = React.useState<
+  //   {
+  //     name: string;
+  //     ts: number;
+  //     publicKey: PublicKey;
+  //     image: string;
+  //     account: {
+  //       ts: any;
+  //       name: number[];
+  //       bump: number;
+  //       shdw: PublicKey;
+  //       multisig: PublicKey;
+  //       authority: PublicKey;
+  //       createKey: PublicKey;
+  //     };
+  //   }[]
+  // >([]);
 
-  useEffect(() => {
-    firethree.project.getAll().then(setProjects);
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  // useEffect(() => {
+  //   firethree.project.getAll().then(setProjects);
+  // }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="flex flex-col h-screen w-screen overflow-x-hidden">
@@ -135,7 +135,7 @@ const Stats: React.FC = () => {
             </Link>
           </div>
 
-          <div className="w-full max-w-[100vw] flex items-center gap-8 mx-auto mt-20 overflow-x-auto min-h-[150px] px-10">
+          {/* <div className="w-full max-w-[100vw] flex items-center gap-8 mx-auto mt-20 overflow-x-auto min-h-[150px] px-10">
             {projects.map((project) => (
               <div className="flex flex-col items-center" key={project.name}>
                 <div className="flex items-center justify-center w-28 h-28 shadow-md relative rounded-md overflow-hidden">
@@ -152,7 +152,7 @@ const Stats: React.FC = () => {
                 </span>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
 
         <div className="flex flex-col">
