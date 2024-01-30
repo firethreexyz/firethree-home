@@ -1,45 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-// import { Connection, PublicKey } from "@solana/web3.js";
-// import Firethree from "@firethreexyz/firethree-protocol";
 import Link from "next/link";
 import React from "react";
 
 const Stats: React.FC = () => {
-  // const connection = useMemo(
-  //   () =>
-  //     new Connection(
-  //       "https://rpc.helius.xyz/?api-key=70f2e610-d5ea-4007-a763-4b2fd343c55e"
-  //     ),
-  //   []
-  // );
-  // const firethree = useMemo(
-  //   () => new Firethree(null, connection),
-  //   [connection]
-  // );
-  // const [projects, setProjects] = React.useState<
-  //   {
-  //     name: string;
-  //     ts: number;
-  //     publicKey: PublicKey;
-  //     image: string;
-  //     account: {
-  //       ts: any;
-  //       name: number[];
-  //       bump: number;
-  //       shdw: PublicKey;
-  //       multisig: PublicKey;
-  //       authority: PublicKey;
-  //       createKey: PublicKey;
-  //     };
-  //   }[]
-  // >([]);
-
-  // useEffect(() => {
-  //   firethree.project.getAll().then(setProjects);
-  // }, []); // eslint-disable-line react-hooks/exhaustive-deps
-
   return (
     <div className="flex flex-col h-screen w-screen overflow-x-hidden">
       <img
@@ -106,16 +71,7 @@ const Stats: React.FC = () => {
               target="_blank"
             >
               @GenesysGo
-            </Link>{" "}
-            and Multisig by{" "}
-            <Link
-              className="underline hover:text-fire-orange text-fire-yellow transition-all"
-              href="https://twitter.com/SquadsProtocol"
-              target="_blank"
-            >
-              @SquadsProtocol
-            </Link>
-            .
+            </Link>.
             <br />
             Yes it&apos;s similar to Fireb*** but 3x better!
           </span>
@@ -126,7 +82,7 @@ const Stats: React.FC = () => {
               </button>
             </Link>
             <Link
-              href="https://www.npmjs.com/package/@firethreexyz/firethree-protocol"
+              href="https://www.npmjs.com/package/@triadxyz/firethree-protocol"
               target="_blank"
             >
               <button className="text-lg text-white bg-white/10 h-[50px] px-20 md:px-28 mt-5 rounded-xl border border-white/30 hover:opacity-80 transition-all">
@@ -134,25 +90,6 @@ const Stats: React.FC = () => {
               </button>
             </Link>
           </div>
-
-          {/* <div className="w-full max-w-[100vw] flex items-center gap-8 mx-auto mt-20 overflow-x-auto min-h-[150px] px-10">
-            {projects.map((project) => (
-              <div className="flex flex-col items-center" key={project.name}>
-                <div className="flex items-center justify-center w-28 h-28 shadow-md relative rounded-md overflow-hidden">
-                  <img
-                    className="flex w-full h-full absolute object-contain"
-                    src={project.image}
-                    alt="logo"
-                    loading="lazy"
-                  />
-                </div>
-
-                <span className="text-sm text-[#CCCBCB] font-medium mt-2">
-                  {project.name}
-                </span>
-              </div>
-            ))}
-          </div> */}
         </div>
 
         <div className="flex flex-col">
