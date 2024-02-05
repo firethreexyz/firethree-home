@@ -84,9 +84,9 @@ const Stats: React.FC = () => {
             <br />
             Yes it&apos;s similar to Fireb*** but 3x better!
           </span>
-          <Link href="https://app.firethree.xyz/new-project" target="_blank">
+          <Link href="https://app.firethree.xyz" target="_blank">
             <button className="text-lg text-white bg-white/10 h-[50px] px-20 md:px-28 mt-5 rounded-xl border border-white/30 hover:opacity-80 transition-all">
-              Create Project
+              Launch App
             </button>
           </Link>
         </div>
