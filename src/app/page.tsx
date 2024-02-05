@@ -6,7 +6,7 @@ import React from "react";
 
 const Stats: React.FC = () => {
   return (
-    <div className="flex flex-col h-screen w-screen">
+    <div className="flex flex-col h-screen w-screen overflow-x-hidden">
       <img
         className="absolute z-0 left-0 top-0 w-full h-full"
         src="/img/bg.png"
@@ -71,24 +71,25 @@ const Stats: React.FC = () => {
               target="_blank"
             >
               @GenesysGo
-            </Link>{" "}
-            and Multisig by{" "}
-            <Link
-              className="underline hover:text-fire-orange text-fire-yellow transition-all"
-              href="https://twitter.com/SquadsProtocol"
-              target="_blank"
-            >
-              @SquadsProtocol
-            </Link>
-            .
+            </Link>.
             <br />
             Yes it&apos;s similar to Fireb*** but 3x better!
           </span>
-          <Link href="https://app.firethree.xyz" target="_blank">
-            <button className="text-lg text-white bg-white/10 h-[50px] px-20 md:px-28 mt-5 rounded-xl border border-white/30 hover:opacity-80 transition-all">
-              Launch App
-            </button>
-          </Link>
+          <div className="flex items-center gap-4 flex-col md:flex-row">
+            <Link href="https://app.firethree.xyz" target="_blank">
+              <button className="text-lg text-white bg-white/10 h-[50px] px-20 md:px-28 mt-5 rounded-xl border border-white/30 hover:opacity-80 transition-all">
+                Launch App
+              </button>
+            </Link>
+            <Link
+              href="https://www.npmjs.com/package/@triadxyz/firethree-protocol"
+              target="_blank"
+            >
+              <button className="text-lg text-white bg-white/10 h-[50px] px-20 md:px-28 mt-5 rounded-xl border border-white/30 hover:opacity-80 transition-all">
+                SDK
+              </button>
+            </Link>
+          </div>
         </div>
 
         <div className="flex flex-col">
